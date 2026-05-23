@@ -60,6 +60,6 @@ When the system is running and detecting traffic, your local dashboard will dyna
 
 <img width="1918" height="1054" alt="image" src="https://github.com/user-attachments/assets/7516faf4-cc84-40f5-a72a-d62b4568ba6d" />
 
-
+*Note: During live testing, normal web browsing traffic to Google and Cloudflare domains triggered low-level False Positives, classifying standard HTTPS bursts as Denial of Service (DoS) anomalies. This happens because modern web browsers open multiple parallel connections to optimize loading speeds, mimicking the dense packet-count patterns found in legacy 1999 training datasets.*
 
 
