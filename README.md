@@ -41,3 +41,24 @@ Because analyzing raw network card traffic requires root privileges, you must ru
 ```bash
 sudo /home/username/idps_env/bin/python /home/username/sniffer.py
 ```
+Leave this terminal window open. It will print status updates as it evaluates network packets.
+
+### 4. Launch the Web Dashboard (Terminal 2)
+
+Open a new terminal window or tab, activate your environment, and start the web server:
+
+```bash
+source idps_env/bin/activate
+python app.py
+```
+Once running, open your web browser and go to: http://127.0.0.1:5000
+
+### Dashboard Preview
+
+When the system is running and detecting traffic, your local dashboard will dynamically display background statistics and actively flag security threats like this:
+
+<img width="1918" height="1054" alt="image" src="https://github.com/user-attachments/assets/7516faf4-cc84-40f5-a72a-d62b4568ba6d" />
+
+
+
+
